@@ -1,2 +1,2 @@
-# samuraininja360.github.io
+# Samuraininja360
 New website to play lag free games
