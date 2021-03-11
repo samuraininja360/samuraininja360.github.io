@@ -1,2 +1,2 @@
 # Samuraininja360
-New website to play lag free games
+New website made to inspire other web developers. This is my portfolio where I will display my projects and programming achievements.
