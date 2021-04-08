@@ -17,3 +17,5 @@ function update() {
   
   window.requestAnimationFrame(update)
 }
+
+setup()
