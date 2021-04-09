@@ -13,7 +13,7 @@ function setup() {
 
 function update() {
   ctx.fillStyle = blue
-  ctx.fillRect(0, 0, screen.width, screen.height)
+  ctx.fillRect(0, 0, 100, 100)
   window.requestAnimationFrame(update)
 }
 
