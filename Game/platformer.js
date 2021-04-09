@@ -8,8 +8,8 @@ const purple = "7900dc"
 
 function setup() {
   console.log("Setting things up")
-  ctx.canvas.width = window.innerWidth
-  ctx.canvas.height = window.innerHeight
+  ctx.canvas.width = window.clientWidth
+  ctx.canvas.height = window.clientHeight
   update()
 }
 
