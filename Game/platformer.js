@@ -8,14 +8,19 @@ const purple = "7900dc"
 
 function setup() {
   console.log("Setting things up")
-  ctx.canvas.width = window.clientWidth
-  ctx.canvas.height = window.clientHeight
   update()
 }
 
 function update() {
-  
+  ctx.fillStyle = blue
+  ctx.fillRect(0, 0, screen.width, screen.height)
   window.requestAnimationFrame(update)
 }
 
+ctx.canvas.width = window.clientWidth
+ctx.canvas.height = window.clientHeight
+var screen = {
+  width: ctx.canvas.width,
+  height: ctx.canvas.height,
+}
 setup()
